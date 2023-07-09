@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Wallet</title>
+</head>
+<body>
+  <h1>Your Ethereum Wallet</h1>
+
+  <h2>Your balance: <span id="balance"></span></h2>
+
+  <form id="send-coin-form">
+    <label for="receiver-address">Receiver address:</label><br>
+    <input type="text" id="receiver-address" name="receiver-address"><br>
+    <label for="send-amount">Amount to send:</label><br>
+    <input type="number" id="send-amount" name="send-amount"><br>
+    <input type="submit" value="Send">
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>

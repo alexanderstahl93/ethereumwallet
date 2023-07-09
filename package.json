@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2",
+    "web3": "^4.0.2"
+  },
+  "name": "reactpackage",
+  "version": "1.0.0",
+  "description": "package file",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
